@@ -82,6 +82,24 @@ label {
 }
 input {
   border: 1px solid #757678;
+  border-radius: 2px;
+}
+
+input:focus {
+  border:1px solid blue;
+  outline: none;
+  box-shadow: 0 3px 1px rgb(232 233 234);
+}
+
+input:invalid, .error {
+  border: 1px solid red;
+}
+.error + span::after {
+  content: 'Password do not match';
+  display: block;
+  color: red;
+  font-size: 0.5rem;
+  position: absolute;
 }
 .top {
   display: flex;

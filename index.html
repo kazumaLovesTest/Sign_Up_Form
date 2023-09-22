@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Form</title>
 </head>
+
 <body>
-  
+  <div>
+    <img src="odin-lined.png" alt="A picture of odin" width="100px" height="auto">
+    <p>Odin</p>
+  </div>
+  <div>
+    <div>
+      <p>This is not a real online service!You Know you need Something like this in your life to help you realize your
+        deepest dreams</p>
+      <p>You know you want to</p>
+    </div>
+    <form action="" method="get" id="form">
+      <fieldset>
+        
+        <legend>Let's do this</legend>
+
+        <label for="fname">First Name</label>
+        <input type="text" name="first_name" id="fname">
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="last_name" id="lname">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="pnumber">Phone Number</label>
+        <input type="tel" name="phone_number" id="pnumber">
+
+        <label for="pwd">Password</label>
+        <input type="password" name="password" id="pwd">
+        
+        <label for="cpwd">Confirm Password</label>
+        <input type="password" name="confirm_password" id="cpwd">
+      </fieldset>
+    </form>
+    <div>
+      <button form="form" type="submit">Create Account</button>
+      <p>Already have an account <a href="#">Log in</a></p>
+    </div>
+  </div>
 </body>
+
 </html>

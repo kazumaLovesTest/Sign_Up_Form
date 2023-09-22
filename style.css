@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  height: 100vh;
+  background: url(./halie-west-25xggax4bSA-unsplash.jpg) no-repeat;
+}
+.logo p {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+}
+.logo {
+  width: 50vw;
+  text-align: center;
+}
+
+.right_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50vw;
+  background-color: white;
+}
+
+fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px 40px;
+}
+
+label {
+  display: block;
+}
